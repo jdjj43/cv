@@ -18,7 +18,7 @@ export default function App() {
         dateFrom: "",
         dateTo: ""
     });
-    const [showInformation, setShowInformation] = useState(true);
+    const [showInformation, setShowInformation] = useState(false);
 
     const handleChange = (e) => {
         setInfo({
